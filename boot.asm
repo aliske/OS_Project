@@ -127,6 +127,7 @@ sec2:
       ;mov rax, 0x2f202f202f202f20
       ;mov ecx, 500
       ;rep stosq
+	  [EXTERN __printf]
       hlt
 
 times 512 db 0
